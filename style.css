@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("money.jpg");
+}
+
+.sub{
+    background-color: #C4B5FD;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+th,td,tr {
+    background-color: blueviolet;
+    color:white;
+    width:50px;
+    padding:10px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+table{
+    width: 50%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.paid-area { display : none;} 
+
+p{
+    background-color: blueviolet;
+    color:white;
+    border-radius: 10px;
+    padding: 5px;
+    max-width: 33%;
+    margin: auto;
+    margin-top: 20px;
+    font: bolder;
+}
+
+.inp1, .inp2{
+    font-size: 2rem;
+}
+
+button{
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: blueviolet;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+}
+    
+input{
+    height:25px;
+    width: 320px;
+    display: block;
+    margin: auto;
+    background-color: white;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bolder;
+    border-color: black;
+}
+
+.output-area{
+    width: 80%;
+    font-weight: bolder;
+    font-size: larger;
+    margin: auto;
+}
+
+.hd1{
+    width: 400px;
+    font-size: 3rem;
+    margin: auto;
+    margin-top: 0px;
+    background-color: white;
+}
