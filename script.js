@@ -10,7 +10,6 @@ function billHandler() {
   if (parseInt(billAmount.value) <= 0 || billAmount.value === "")
     outputArea.innerHTML = "Please enter appropriate input";
   else paidArea.style.display = "block";
-  billCheck.style.display = "none";
 }
 
 function clickHandler() {
