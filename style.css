@@ -3,6 +3,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-image: url("money.jpg");
+    margin: 0px;
 }
 
 .sub{
@@ -86,4 +87,31 @@ input{
     margin: auto;
     margin-top: 0px;
     background-color: white;
+}
+
+
+/* footer */
+
+.footerall{
+    text-align: center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.sociallist{
+    background-color: black;
+}
+
+.socials{
+    display: inline;
+}
+
+.sociallink{
+    width: 30px;
+    height: 30px;
+    filter: grayscale(1) invert(1);
+    margin: 3rem;
 }
